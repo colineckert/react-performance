@@ -42,7 +42,7 @@ function AppProvider({children}) {
   return (
     <AppDispatchContext.Provider value={dispatch}>
       <AppStateContext.Provider value={state}>
-          {children}
+        {children}
       </AppStateContext.Provider>
     </AppDispatchContext.Provider>
   )
